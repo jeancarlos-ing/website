@@ -1,0 +1,15 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "description": "Personal Website of Jean Carlos",
+  "main": "index.html",
+  "scripts": {
+    "build": "sergey",
+    "dev": "sergey --watch"
+  },
+  "author": "Jean Carlos <jeancarlos.ingenieria@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "sergey": "0.0.13"
+  }
+}
