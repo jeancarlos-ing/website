@@ -2,13 +2,35 @@
   "name": "website",
   "type": "module",
   "version": "0.0.1",
+  "author": "Jean Carlos Tomichá Ressa <jeancarlos.ingenieria@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "dev:network": "astro dev --host",
+    "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "preview:network": "astro preview --host",
+    "astro": "astro",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "astro": "5.16.5"
+    "@astrojs/mdx": "4.3.13",
+    "@astrojs/rss": "4.0.14",
+    "@astrojs/sitemap": "3.6.0",
+    "@fontsource/inter": "5.2.8",
+    "@fontsource/lora": "5.2.8",
+    "@tailwindcss/typography": "0.5.19",
+    "@tailwindcss/vite": "4.1.18",
+    "@typescript-eslint/eslint-plugin": "8.49.0",
+    "@typescript-eslint/parser": "8.49.0",
+    "astro": "5.16.5",
+    "clsx": "2.1.1",
+    "eslint": "9.39.1",
+    "eslint-plugin-astro": "1.5.0",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "sharp": "0.34.5",
+    "tailwind-merge": "3.4.0",
+    "tailwindcss": "4.1.18"
   }
 }
